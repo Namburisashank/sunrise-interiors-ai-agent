@@ -16,7 +16,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/call",
+       "https://sunrise-interiors-ai-agent.onrender.com/call",
         {
           phone: phone.trim(),
         }
